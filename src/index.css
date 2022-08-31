@@ -89,6 +89,7 @@
   Headings
 ****************************************/
 .heading {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;

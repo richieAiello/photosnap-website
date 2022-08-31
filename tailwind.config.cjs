@@ -13,6 +13,9 @@ module.exports = {
     extend: {
       colors: {
         grey: '#DFDFDF',
+        'grad-1': '#FFC593',
+        'grad-2': '#BC7198',
+        'grad-3': '#5A77FF',
       },
     },
   },
