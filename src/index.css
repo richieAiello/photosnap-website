@@ -38,6 +38,10 @@
 ****************************************/
 .body {
   font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+  background-color: #000;
 }
 
 /* Prevent's whitespace between main and footer in Contact.jsx for large screens. */
@@ -51,7 +55,7 @@
 .active {
   text-decoration: 2px underline;
   text-underline-offset: 0.25rem;
-  /* color: #36536b; */
+  color: #000;
 }
 
 .ninja {
@@ -84,3 +88,23 @@
 /****************************************
   Headings
 ****************************************/
+.heading {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: 3.33px;
+}
+
+.heading--sub {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.5625rem;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: 4.17px;
+  }
+}

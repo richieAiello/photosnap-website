@@ -10,7 +10,11 @@ module.exports = {
       md: '768px',
       lg: '1440px',
     },
-    extend: { colors: {} },
+    extend: {
+      colors: {
+        grey: '#DFDFDF',
+      },
+    },
   },
   plugins: [],
 };
