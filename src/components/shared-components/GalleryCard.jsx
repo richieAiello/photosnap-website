@@ -25,9 +25,7 @@ const GalleryCard = ({ image, heading, author, date, path }) => {
       <div className="relative flex items-end px-8 pb-10 w-full h-full bg-gradient-to-b from-[rgba(0,0,0,.01)] to-[rgba(0,0,0,66.12)]">
         <div className="text-white w-full">
           {date && <p className="text--gallery mb-1">{date}</p>}
-          <h3 className="text-[1.125rem] font-bold mb-1">
-            {heading}
-          </h3>
+          <h2 className="heading--sub mb-1">{heading}</h2>
           <p className="text--gallery mb-4">{author}</p>
           <div className="before:mb-5 before:h-[1px] before:w-full before:bg-[rgba(255,255,255,0.25)] before:block">
             <a
