@@ -86,7 +86,7 @@
 }
 
 /****************************************
-  Headings
+  Headings and Text
 ****************************************/
 .heading {
   text-transform: uppercase;
@@ -102,10 +102,41 @@
   line-height: 1.5625rem;
 }
 
+.text--link,
+.text--link--nav {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.text--link {
+  font-size: 0.75rem;
+  line-height: 15.62px;
+  letter-spacing: 0.125rem;
+}
+
+.text--link--nav {
+  font-size: 0.9375rem;
+  line-height: 19.53px;
+  letter-spacing: 0.15625rem;
+}
+
+.text--gallery {
+  font-weight: 400;
+  color: #fff;
+  font-size: 0.8125rem;
+  line-height: 16.93px;
+}
+
 @media (min-width: 768px) {
   .heading {
     font-size: 2.5rem;
     line-height: 3rem;
     letter-spacing: 4.17px;
+  }
+
+  .text--link--nav {
+    font-size: 0.75rem;
+    line-height: 15.62px;
+    letter-spacing: 0.125rem;
   }
 }

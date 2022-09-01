@@ -6,10 +6,7 @@ const InviteArrowBtn = props => {
       href="#"
       className="flex items-center decoration-white hover:underline"
     >
-      <span
-        className="uppercase mr-[1.625rem] text-white font-bold text-[0.75rem] 
-        leading-[15.62px] tracking-[0.125rem]"
-      >
+      <span className="text--link mr-[1.625rem] text-white">
         Get An Invite
       </span>
       <img src={arrowLight} alt="" className="inline-block" />
