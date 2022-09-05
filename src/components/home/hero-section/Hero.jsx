@@ -20,8 +20,8 @@ const Hero = props => {
       </picture>
       <div className="bg-black">
         <section
-          className="container py-[4.5rem] relative before:h-[0.375rem] before:w-32 before:absolute
-          before:top-0 before:left-0 before:bg-gradient-to-tr before:from-grad-1
+          className="container py-[4.5rem] relative before:block before:h-[0.375rem] before:w-32 
+          before:absolute before:top-0 before:left-0 before:bg-gradient-to-tr before:from-grad-1
           before:via-grad-2 before:to-grad-3"
         >
           <h1 className="heading mb-4 text-white max-w-[15ch]">
