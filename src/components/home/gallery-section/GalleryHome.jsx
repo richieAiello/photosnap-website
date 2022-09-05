@@ -5,7 +5,7 @@ const GalleryHome = props => {
   const data = useData().slice(0, 4);
 
   return (
-    <div className="bg-white grid mx-auto w-[min(100%,375px)] h-[calc(100%-6px)]">
+    <div className="bg-black grid mx-auto w-[min(100%,375px)] h-[calc(100%-6px)]">
       {data.map(item => {
         return (
           <GalleryCard

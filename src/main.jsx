@@ -6,6 +6,7 @@ import ScrollToTop from './ScrollToTop';
 import App from './App';
 import './index.css';
 import './styles/nav.css';
+import './styles/footer.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
