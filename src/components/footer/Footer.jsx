@@ -5,7 +5,7 @@ import InviteArrowBtn from '../shared-components/InviteArrowBtn';
 
 const Footer = props => {
   return (
-    <footer className="bg-black text-white py-14">
+    <footer className="bg-black text-white py-14 relative mt-auto">
       <div className="container flex flex-col items-center text-center">
         <img src={logo} alt="" className="mb-8" />
         <FooterIcons />

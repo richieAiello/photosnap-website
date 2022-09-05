@@ -1,8 +1,8 @@
-import GalleryCard from '../../shared-components/GalleryCard';
-import { useData } from '../../../context/Context';
+import { useData } from '../../context/Context';
+import GalleryCard from '../shared-components/GalleryCard';
 
-const GalleryHome = props => {
-  const data = useData().slice(0, 4);
+const GalleryGrid = props => {
+  const data = useData();
 
   return (
     <div className="bg-black grid mx-auto w-[min(100%,375px)]">
@@ -21,4 +21,4 @@ const GalleryHome = props => {
   );
 };
 
-export default GalleryHome;
+export default GalleryGrid;

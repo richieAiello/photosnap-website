@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import arrow from '../../assets/icons/arrow-light.svg';
+import ReadStoryBtn from './ReadStoryBtn';
 
 const GalleryCard = ({ image, heading, author, date, path }) => {
   const linkRef = useRef(null);
@@ -21,6 +21,7 @@ const GalleryCard = ({ image, heading, author, date, path }) => {
         src={`./images/gallery/desktop/${image}.jpg`}
         alt=""
         className="absolute top-0 left-0 h-full w-full object-cover"
+        loading="lazy"
       />
       <div className="relative flex items-end px-8 pb-10 w-full h-full bg-gradient-to-b from-[rgba(0,0,0,.01)] to-[rgba(0,0,0,66.12)]">
         <div className="text-white w-full">
@@ -28,17 +29,12 @@ const GalleryCard = ({ image, heading, author, date, path }) => {
           <h2 className="heading--sub mb-1">{heading}</h2>
           <p className="text--gallery mb-4">{author}</p>
           <div className="before:mb-5 before:h-[1px] before:w-full before:bg-[rgba(255,255,255,0.25)] before:block">
-            <a
-              href={path}
-              aria-label="Click to view story."
-              target="_blank"
-              className="flex justify-between items-center"
-              ref={linkRef}
+            <ReadStoryBtn
+              path={path}
+              className="w-full"
               tabIndex="-1"
-            >
-              <span className="text--link">Read Story</span>
-              <img src={arrow} alt="" className="inline-block" />
-            </a>
+              ref={linkRef}
+            />
           </div>
         </div>
       </div>
