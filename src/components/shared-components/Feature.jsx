@@ -4,7 +4,8 @@ const Feature = ({ image, className, heading, text }) => {
       <img
         src={`./images/features/${image}.svg`}
         alt=""
-        className={className}
+        // Backup margin for very small screens
+        className={`mb-6 ${className}`}
       />
       <div className="text-center">
         <h2 className="heading--sub text-black mb-4">{heading}</h2>
