@@ -1,5 +1,6 @@
 import SharedHero from '../components/shared-components/SharedHero';
 import PlanSection from '../components/pricing/plan-section/PlanSection';
+import CompareSection from '../components/pricing/compare-section/CompareSection';
 import BetaSection from '../components/shared-components/BetaSection';
 
 const Pricing = props => {
@@ -12,6 +13,7 @@ const Pricing = props => {
           It’s the simple way to create and share your photos."
       />
       <PlanSection />
+      <CompareSection />
       <BetaSection />
     </main>
   );
