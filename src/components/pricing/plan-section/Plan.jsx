@@ -3,7 +3,7 @@ import clsx from 'clsx';
 // In the future have the pick plann button open up a module with a checkout form
 // or transfer to a new checkout page. Or maybe just have user submit an email address.
 
-const Plan = ({ state, plans, secondary, heading, text, price }) => {
+const Plan = ({ state, plans, secondary, heading, text, prices }) => {
   return (
     <section
       className={`
@@ -26,7 +26,7 @@ const Plan = ({ state, plans, secondary, heading, text, price }) => {
       </h2>
       <p className="opacity-60 mb-10">{text}</p>
       <p className="font-bold text-[2.5rem] leading-[3rem] tracking-[4.17px]">
-        {price}
+        {state === plans[0] ? prices[0] : prices[1]}
       </p>
       <p className="opacity-60 mb-10">
         per {state === plans[0] ? 'month' : 'year'}
