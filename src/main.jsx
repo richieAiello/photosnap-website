@@ -7,6 +7,7 @@ import App from './App';
 import './index.css';
 import './styles/nav.css';
 import './styles/footer.css';
+import './styles/table.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
