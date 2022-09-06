@@ -1,0 +1,28 @@
+.footer__link {
+  display: inline-block;
+}
+
+.footer__link:hover .footer__icon--facebook path,
+.footer__link:focus .footer__icon--facebook path {
+  fill: url(#facebook);
+}
+
+.footer__link:hover .footer__icon--youtube path,
+.footer__link:focus .footer__icon--youtube path {
+  fill: url(#youtube);
+}
+
+.footer__link:hover .footer__icon--twitter path,
+.footer__link:focus .footer__icon--twitter path {
+  fill: url(#twitter);
+}
+
+.footer__link:hover .footer__icon--pinterest path,
+.footer__link:focus .footer__icon--pinterest path {
+  fill: url(#pinterest);
+}
+
+.footer__link:hover .footer__icon--instagram path,
+.footer__link:focus .footer__icon--instagram path {
+  fill: url(#instagram);
+}
