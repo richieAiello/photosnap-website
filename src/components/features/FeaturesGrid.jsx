@@ -2,8 +2,11 @@ import Feature from '../shared-components/Feature';
 
 const FeaturesGrid = props => {
   return (
-    <div className="bg-white py-20">
-      <div className="grid gap-y-14 container justify-center">
+    <div className="bg-white py-20 md:py-28">
+      <div
+        className="grid gap-y-14 container justify-center md:gap-y-[4.5rem]
+        md:grid-cols-2 md:gap-x-3"
+      >
         <Feature
           image="responsive"
           heading="100% Responsive"
@@ -15,6 +18,7 @@ const FeaturesGrid = props => {
           heading="No Photo Upload Limit"
           text="Our tool has no limits on uploads or bandwidth. Freely upload in bulk and
             share all of your stories in one go."
+          className="md:mt-[1.125rem]"
         />
         <Feature
           image="embed"

@@ -6,7 +6,7 @@ const Hero = props => {
       <img
         src="./images/home/desktop/create-and-share.jpg"
         alt=""
-        className="object-cover h-[18.375rem] w-full object-top md:h-[650px] md:col-span-2"
+        className="object-cover h-[18.375rem] w-full object-top md:h-full md:col-span-2"
       />
       <div
         className="bg-black md:flex md:justify-end md:items-center 

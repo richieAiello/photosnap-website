@@ -16,6 +16,7 @@ const FeaturesHome = props => {
           heading="No Photo Upload Limit"
           text="Our tool has no limits on uploads or bandwidth. Freely upload in bulk and
             share all of your stories in one go."
+          className="md:mt-[1.125rem]"
         />
         <Feature
           image="embed"
