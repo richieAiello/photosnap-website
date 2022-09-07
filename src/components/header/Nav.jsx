@@ -48,7 +48,7 @@ const Nav = props => {
 
   return (
     <nav className="container flex justify-between items-center">
-      <img src={logo} alt="" className="md:mr-7" />
+      <img src={logo} alt="" className="md:mr-7 lg:mr-56" />
       <Hamburger
         className={clsx({
           flip: menuVisibility,

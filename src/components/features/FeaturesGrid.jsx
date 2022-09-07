@@ -2,10 +2,10 @@ import Feature from '../shared-components/Feature';
 
 const FeaturesGrid = props => {
   return (
-    <div className="bg-white py-20 md:py-28">
+    <div className="bg-white py-20 md:py-28 lg:py-40">
       <div
         className="grid gap-y-14 container justify-center md:gap-y-[4.5rem]
-        md:grid-cols-2 md:gap-x-3"
+        md:grid-cols-2 md:gap-x-3 lg:grid-cols-3 lg:gap-y-[6.5rem] lg:gap-x-[1.875rem]"
       >
         <Feature
           image="responsive"
