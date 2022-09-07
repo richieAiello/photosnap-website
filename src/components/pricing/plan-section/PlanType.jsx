@@ -6,7 +6,7 @@ const PlanType = ({ setState, state, plans }) => {
   };
 
   return (
-    <div className="flex justify-center items-center text-black mb-10">
+    <div className="flex justify-center items-center text-black mb-10 lg:mb-12">
       <span
         className={`heading--sub duration-300 ${clsx({
           'opacity-60': state === plans[1],
