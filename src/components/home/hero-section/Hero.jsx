@@ -2,7 +2,10 @@ import InviteArrowBtn from '../../shared-components/InviteArrowBtn';
 
 const Hero = props => {
   return (
-    <div className="md:grid md:grid-cols-[1fr,495px,273px,1fr] md:h-[650px]">
+    <div
+      className="md:grid md:grid-cols-[1fr,495px,273px,1fr] md:grid-rows-[650px]
+      lg:grid-cols-[1fr,610px,830px,1fr]"
+    >
       <img
         src="./images/home/desktop/create-and-share.jpg"
         alt=""
@@ -16,7 +19,7 @@ const Hero = props => {
           className="container--secondary py-[4.5rem] relative before:block before:h-[0.375rem] before:w-32 
           before:absolute before:top-0 before:left-0 before:bg-gradient-to-tr before:from-grad-1
           before:via-grad-2 before:to-grad-3 md:py-0 md:mr-[3.375rem] md:before:h-full
-          md:before:w-[0.375rem] md:before:-left-[3.375rem]"
+          md:before:w-[0.375rem] md:before:-left-[3.375rem] lg:mr-28"
         >
           <h1 className="heading mb-4 text-white max-w-[15ch] md:mb-5">
             Create and share your photo Stories
