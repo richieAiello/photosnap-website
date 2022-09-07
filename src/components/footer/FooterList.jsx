@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const FooterList = props => {
   return (
-    <ul className="grid gap-y-5 mb-16 text-white">
+    <ul className="grid gap-y-5 mb-16 text-white md:grid-flow-col md:gap-x-6 md:mb-[4.5rem]">
       <li>
         <NavLink to="/" className="text--link">
           home
