@@ -3,8 +3,8 @@ import Feature from '../../shared-components/Feature';
 const FeaturesHome = props => {
   return (
     // Position relative allows the GalleryCard accents to slide under smoothly
-    <div className="bg-white py-20 relative">
-      <div className="grid gap-y-14 container justify-center">
+    <div className="bg-white py-20 relative md:py-28">
+      <div className="grid gap-y-14 container justify-center md:gap-y-20">
         <Feature
           image="responsive"
           heading="100% Responsive"

@@ -1,6 +1,9 @@
 const Feature = ({ image, className, heading, text }) => {
   return (
-    <div className="max-w-[310px] min-h-[218px] flex flex-col items-center justify-between">
+    <div
+      className="max-w-[310px] min-h-[218px] flex flex-col items-center justify-between
+      md:max-w-[457px]"
+    >
       <img
         src={`./images/features/${image}.svg`}
         alt=""

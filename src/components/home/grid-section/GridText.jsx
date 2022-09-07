@@ -6,8 +6,10 @@ const GridText = ({ className, heading, text }) => {
       className={`bg-white md:flex md:items-center md:py-0 md:col-span-2 ${className}`}
     >
       <section className="container--secondary py-[4.5rem]">
-        <h1 className="heading mb-4">{heading}</h1>
-        <p className="text-black opacity-60 mb-6">{text}</p>
+        <h1 className="heading mb-4 max-w-[12ch] md:mb-5">
+          {heading}
+        </h1>
+        <p className="text-black opacity-60 mb-6 md:mb-12">{text}</p>
         <ViewStoriesBtn />
       </section>
     </div>
