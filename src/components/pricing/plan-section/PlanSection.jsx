@@ -9,10 +9,10 @@ const PlanSection = props => {
   const [plan, setPlan] = useState(plans[0]);
 
   return (
-    <div className="bg-white py-16">
+    <div className="bg-white py-16 md:py-28">
       <div className="container">
         <PlanType setState={setPlan} state={plan} plans={plans} />
-        <div className="grid gap-y-6 justify-center">
+        <div className="grid gap-y-6">
           {data.map(item => {
             return (
               <Plan

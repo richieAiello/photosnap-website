@@ -67,7 +67,8 @@
   position: absolute;
 }
 
-.container {
+.container,
+.container--secondary {
   margin-inline: auto;
   width: min(100% - 3rem, 375px);
 }
@@ -75,6 +76,11 @@
 @media (min-width: 768px) {
   .container {
     width: 689px;
+  }
+
+  .container--secondary {
+    margin-inline: unset;
+    width: 387px;
   }
 }
 

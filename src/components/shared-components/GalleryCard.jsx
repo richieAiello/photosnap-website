@@ -10,10 +10,10 @@ const GalleryCard = ({ image, heading, author, date, path }) => {
 
   return (
     <div
-      className="relative h-[375px] w-[min(100%,375px)] duration-300 cursor-pointer 
+      className="relative h-[375px] w-full duration-300 cursor-pointer 
       after:h-[0.375rem] after:w-full after:absolute after:-bottom-[0.375rem] after:left-0 after:block
       after:bg-gradient-to-tr after:from-grad-1 after:via-grad-2 after:to-grad-3 after:-z-10
-      hover:-translate-y-8  focus:-translate-y-8"
+      hover:-translate-y-8  focus:-translate-y-8 md:h-[500px]"
       onClick={handleCardClick}
       tabIndex="0"
     >

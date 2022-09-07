@@ -6,7 +6,7 @@ import { ReactComponent as Instagram } from '../../assets/icons/instagram.svg';
 
 const FooterIcons = props => {
   return (
-    <div className="grid grid-flow-col gap-x-[0.875rem] mb-12">
+    <div className="grid grid-flow-col gap-x-[0.875rem] mb-12 w-max md:row-start-3 md:m-0">
       <a href="#" className="footer__link">
         <Facebook className="footer--icon footer__icon--facebook" />
       </a>

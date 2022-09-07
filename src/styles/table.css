@@ -3,6 +3,7 @@
   border-collapse: collapse;
   text-align: left;
   margin-inline: auto;
+  margin-top: -1.5rem;
 }
 
 .table__heading,
