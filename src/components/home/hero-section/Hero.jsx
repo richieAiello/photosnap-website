@@ -19,7 +19,7 @@ const Hero = props => {
           className="container--secondary py-[4.5rem] relative before:block before:h-[0.375rem] before:w-32 
           before:absolute before:top-0 before:left-0 before:bg-gradient-to-tr before:from-grad-1
           before:via-grad-2 before:to-grad-3 md:py-0 md:mr-[3.375rem] md:before:h-full
-          md:before:w-[0.375rem] md:before:-left-[3.375rem] lg:mr-28"
+          md:before:w-[0.375rem] md:before:-left-[3.375rem] lg:mr-28 lg:before:-left-28"
         >
           <h1 className="heading mb-4 text-white max-w-[15ch] md:mb-5">
             Create and share your photo Stories
