@@ -3,7 +3,7 @@ import InviteArrowBtn from './InviteArrowBtn';
 const BetaSection = props => {
   return (
     <div
-      className="bg-[rgba(0,0,0,.1)] bg-blend-multiply bg-[url('./images/shared-images/beta.jpg')] bg-cover bg-no-repeat bg-center
+      className="bg-[rgba(0,0,0,.1)] bg-blend-multiply bg-[url('./assets/beta.jpg')] bg-cover bg-no-repeat bg-center
       md:py-[4.25rem]"
     >
       <section
