@@ -9,7 +9,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## Built with
 
-- <a href="https://reactjs.org/" target="_blank">React.js</a>
+- [React.js](https://reactjs.org/)
 - [React Router v6](https://reactrouter.com/)
 - [Tailwind CSS](https://tailwindcss.com/) 
 - [Vite.js](https://vitejs.dev/)
