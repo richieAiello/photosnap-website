@@ -10,7 +10,7 @@ const Feature = ({ image, className, heading, text }) => {
         // Backup margin for very small screens
         className={`mb-6 ${className}`}
       />
-      <div className="text-center">
+      <div className="min-h-[7.25rem] text-center">
         <h2 className="heading--sub text-black mb-4">{heading}</h2>
         <p className="text-[rgba(0,0,0,.6)]">{text}</p>
       </div>
